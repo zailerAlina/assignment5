@@ -15,7 +15,7 @@ for student in all_students:
     ]
     s=sum(grades)
     l=len(grades)
-    student['Середня оцінка'] = round(s//l, 2)
+    student['Середня оцінка'] = round(s/l, 2)
 
 target_group = input("Введіть назву ОДНІЄЇ групи для експорту: ")
 
